@@ -2,6 +2,8 @@
 layout: home
 ---
 
+<style>ul{list-style:none; padding-left: 0px;}</style>
+
 Testing
 
 

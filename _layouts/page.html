@@ -1,0 +1,65 @@
+<html>
+  {%- include head.html -%}
+  <body>
+        
+        
+
+<main class="blog" itemscope="" itemtype="http://schema.org/Blog">
+  <a href="/" class="posts-item-brand">hmpg</a>
+    
+    <h1 itemprop="name">{{page.title}}</h1>
+    <div class="posts-item-byline">
+            
+            Updated on <time datetime="{{page.date}}" itemprop="datePublished">{{page.date}}</time>
+            
+            
+        </div>
+
+    {{ content }}
+
+    
+
+ 
+</main>
+
+
+<section class="webring">
+    
+    <a href="https://jplattel.nl/">← Previous</a>
+    
+    <div>
+        
+        ○
+        <a href="https://webring.stavros.io/" class="webring-name">
+            Tech Makers Webring
+        </a>
+        
+    </div>
+    
+    <a href="https://whynot.fail/">Next →</a>
+    
+</section>
+
+
+
+<footer>
+    
+    Subscribe <a href="/rss/">via RSS</a>
+    / <a href="/newsletter/">via Email</a>.
+    
+
+    
+    <br><p>Public domain everything.</p>
+    
+</footer>
+
+
+  </body>
+
+</html>
+
+        
+        
+    
+
+</body>

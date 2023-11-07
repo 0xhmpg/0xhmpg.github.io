@@ -24,22 +24,14 @@
 
 
 <section class="webring">
+      {% if page.previous.url %}
+    <a href="{{page.previous.url}}">← {{page.previous.title}}</a>
+      {% endif %}
+    {% if page.next.url %}
     
-    <a href="https://jplattel.nl/">← Previous</a>
-    
-    <div>
-        
-        ○
-        <a href="https://webring.stavros.io/" class="webring-name">
-            Tech Makers Webring
-        </a>
-        
-    </div>
-    
-    <a href="https://whynot.fail/">Next →</a>
-    
+    <a href="{{page.next.url}}">{{page.next.title}} →</a>
+      {% endif %}
 </section>
-
 
 
 <footer>
